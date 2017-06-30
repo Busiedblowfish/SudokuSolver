@@ -8,21 +8,21 @@ import org.opencv.android.OpenCVLoader;
 
 public class MainActivity extends AppCompatActivity
 {
-
-    private static final String TAG = "MainActivity";
-
-    //Test OpenCVLibrary
-
-    static {
-        if (OpenCVLoader.initDebug())
-        {
-            Log.d(TAG, "OpenCV successfully loaded");
-        }
-        else
-        {
-            Log.d(TAG, "OpenCV not loaded");
-        }
-    }
+//
+//    private static final String TAG = "MainActivity";
+////
+////    //Test OpenCVLibrary
+////
+////    static {
+////        if (OpenCVLoader.initDebug())
+////        {
+////            Log.d(TAG, "OpenCV successfully loaded");
+////        }
+////        else
+////        {
+////            Log.d(TAG, "OpenCV not loaded");
+////        }
+////    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
